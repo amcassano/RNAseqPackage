@@ -14,6 +14,10 @@ get_DEresults <- function(contrast_str = "Condition", numerator, denominator, ti
   con <- c(contrast_str, numerator, denominator)
   results <- DESeq2::results(deseq_obj, con, tidy = tidy_result)
 
+  if(tidy_result){
+    results <- dplyr::rename(results, "GeneID" = "row")
+  }
+
   return(results)
 
 }
