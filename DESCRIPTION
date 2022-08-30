@@ -1,4 +1,4 @@
-Package: RNAseqAnalysis
+Package: RNAseqAnalysisPkg
 Title: Analyze and Visualize RNA Sequencing Data
 Version: 0.0.0.9000
 Authors@R:
