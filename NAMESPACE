@@ -3,6 +3,7 @@
 export(add_labels)
 export(annotate_biomart)
 export(export_genelist)
+export(get_DEresults)
 export(global_theme)
 export(pca_analysis)
 export(plot_genecounts)
