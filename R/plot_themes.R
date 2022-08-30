@@ -35,6 +35,6 @@ global_theme <- function(){
                panel.grid.minor = ggplot2::element_blank(), # get rid of minor grid
                axis.line = ggplot2::element_line("black", 0.3),
                aspect.ratio = 1,
-               plot.title = eggplot2::lement_text(hjust = 0.5),
+               plot.title = ggplot2::lement_text(hjust = 0.5),
                plot.subtitle = ggplot2::element_text(hjust = 0.5)))
 }

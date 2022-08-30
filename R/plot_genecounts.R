@@ -22,7 +22,7 @@ plot_genecounts <- function(geneid, dseq_obj,
                             plot_labels,
                             plot_title = "Gene Counts",
                             plot_subtitle = "",
-                            groupby = "condition",
+                            groupby = "Condition",
                             label_samples = TRUE)
 {
   # save the data from the plotCounts function
