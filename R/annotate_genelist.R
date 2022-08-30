@@ -60,7 +60,7 @@ annotate_biomart <- function(res, gm) {
 
   # rename the columns
   colList <- colnames(res)
-  newCols <- purr::map(colList, rename_columns)
+  newCols <- purrr::map(colList, rename_columns)
   colnames(res) <- NULL
   colnames(res) <- newCols
 
