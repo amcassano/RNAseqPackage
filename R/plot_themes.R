@@ -31,7 +31,6 @@ add_labels <- function(dat){
 global_theme <- function(){
   return(ggplot2::theme(panel.background = ggplot2::element_rect(fill = "transparent"),
                plot.background = ggplot2::element_rect(fill = "transparent", color = NA),
-               #panel.grid.major = element_blank(), # get rid of major grid
                panel.grid.minor = ggplot2::element_blank(), # get rid of minor grid
                axis.line = ggplot2::element_line("black", 0.3),
                aspect.ratio = 1,

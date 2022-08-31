@@ -9,7 +9,8 @@ get_DEresults(
   numerator,
   denominator,
   tidy_result = TRUE,
-  deseq_obj
+  deseq_obj,
+  shrinkage = TRUE
 )
 }
 \arguments{
@@ -22,6 +23,8 @@ get_DEresults(
 \item{tidy_result}{boolean, defaults to TRUE, dictates if the results are returned as a dataframe or obj}
 
 \item{deseq_obj}{data}
+
+\item{shrinkage}{boolean, defaults to TRUE, dictates if lfc shrinking formula is used}
 }
 \value{
 DESeq Results object, or a dataframe

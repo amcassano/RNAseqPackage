@@ -12,7 +12,7 @@ plot_genecounts(
   plot_labels,
   plot_title = "Gene Counts",
   plot_subtitle = "",
-  groupby = "condition",
+  groupby = "Condition",
   label_samples = TRUE
 )
 }
